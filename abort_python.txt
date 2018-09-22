@@ -1,0 +1,22 @@
+1.python3.7安装
+1.1下载源码:
+	https://www.python.org/downloads/release/python-370/
+	tar -zxvf Python-3.7.0.tgz -C ~
+1.2下载依赖库
+	sudo apt-get install zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev libgdbm-dev libdb-dev libpcap-dev xz-utils libexpat1-dev liblzma-dev libffi-dev libc6-dev
+1.3安装位置 配置优化：
+	./configure –prefix=/opt/python3.7 –enable-optimizations
+1.4编译、安装：
+	sudo make && make install
+
+
+
+
+
+
+
+
+
+
+
+
