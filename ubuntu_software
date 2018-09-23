@@ -4,3 +4,5 @@
 1.2 安装Flash播放器插件
 	“系统设置”–>“软件和更新”–>“其它软件”->勾选“Canonical合作伙伴”->点击“关闭”
 	输入：sudo apt install adobe-flashplugin
+2.安装错误:依赖关系问题，仍未被配置
+解决：sudo apt-get install -f , 分析完之后，重新使用dpkg –i XXX.deb
