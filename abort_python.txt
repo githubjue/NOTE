@@ -27,3 +27,10 @@
 2.3 错误：./Modules/zlibmodule.c:10:10: fatal error: zlib.h: No such file or directory
 解决：sudo apt-get install zlib1g-dev，保存然后重新运行：cd Python-3.7.0 && make && sudo make altinstall
 
+3. 设置spyder为python3
+	查看安装了python 3.5，但执行文件还是python 2.7
+	#ls -l /usr/bin/python
+	删除这个链接文件，然后创建一个指向python3.5 的链接文件。
+	# rm -f /usr/bin/python 
+	# ln -s /usr/bin/python3.6 /usr/bin/python 
+	# ls -l /usr/bin/python 
