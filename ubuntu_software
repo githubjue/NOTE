@@ -20,3 +20,10 @@
 
 3.网易云启动
 	netease-cloud-music --no-sandbox %U
+	
+4.解决打开WPS时出现的系统缺失字体问题：
+	下载 https://pan.baidu.com/s/1eS6xIzo
+	将wps_symbol_fonts.zip解压
+	将目录中所有文件复制到/usr/share/fonts下：
+	sudo cp mtextra.ttf  symbol.ttf  WEBDINGS.TTF  wingding.ttf  WINGDNG2.ttf  WINGDNG3.ttf  /usr/share/fonts
+
