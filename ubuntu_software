@@ -28,9 +28,5 @@
 	sudo cp mtextra.ttf  symbol.ttf  WEBDINGS.TTF  wingding.ttf  WINGDNG2.ttf  WINGDNG3.ttf  /usr/share/fonts
 
 5.安装JAVA
-5.1. 添加ppasudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-5.2. 安装oracle-java-installersudo apt-get install oracle-java8-installer
-5.3. 设置系统默认jdksudo update-java-alternatives -s java-8-oracle
-5.4. java安装测试java -version
+	sudo apt install default-jdk
 
