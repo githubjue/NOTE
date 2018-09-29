@@ -29,7 +29,9 @@
 
 3. 
 3.1 安装和卸载spyder
-	sudo pip3 install spyder / sudo apt-get remove spyder
+	sudo apt install python3-pip
+	sudo pip3 install spyder
+	删除 -- sudo apt-get remove spyder
 3.2 设置spyder为python3
 	查看安装了python 3.5，但执行文件还是python 2.7
 	#ls -l /usr/bin/python
