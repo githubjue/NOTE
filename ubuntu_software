@@ -35,5 +35,5 @@
 	snap install --classic eclipse
 	安装插件
 	1、启动eclipse，
-	2、选择Help->Install New Software...。在Work with的框框下复制以下的地址：  http://download.eclipse.org/releases/galileo
+	2、选择Help->Install New Software...。在Work with的框框下复制以下的地址：  http://download.eclipse.org/tools/cdt/releases/indigo
 	3、选择Collaboration->Mylyn Bridge: C/C++ Development，安装，重新启动eclipse。
