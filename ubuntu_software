@@ -29,4 +29,8 @@
 
 5.安装JAVA
 	sudo apt install default-jdk
+	
+6.安装eclispe 
+	sudo apt-get install snapd snapd-xdg-open
+	snap install --classic eclipse
 
